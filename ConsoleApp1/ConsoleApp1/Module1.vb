@@ -18,7 +18,7 @@
         Dim m, n As Integer
         '   Dim ch As Char() = New Char() {","c, "&"c, " "c, "-"c}
         m = Convert.ToInt16(x.Split(",")(0))
-        fvmfkv
+        'test
         n = Convert.ToInt16(x.Split(",")(1))
         Console.WriteLine("the sum of {0} and {1} is {2}", m, n, (m + n))
         Console.WriteLine("the min and max value of byte is {0} and {1}", Byte.MinValue, Byte.MaxValue)
