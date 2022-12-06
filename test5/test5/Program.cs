@@ -30,20 +30,49 @@ namespace test5
               Console.WriteLine("{0}", count);
               Console.ReadLine();*/
 
-           /* ----------------------------------
-            int i;
-            int pow = 1;
-            int x, y;
-            Console.WriteLine("enter values in x and y");
-            x = Convert.ToInt32(Console.ReadLine());
-            y = Convert.ToInt32(Console.ReadLine());
+            /* ----------------------------------
+             int i;
+             int pow = 1;
+             int x, y;
+             Console.WriteLine("enter values in x and y");
+             x = Convert.ToInt32(Console.ReadLine());
+             y = Convert.ToInt32(Console.ReadLine());
 
-            for(i=1;i<y;i++)
+             for(i=1;i<y;i++)
+             {
+                 pow = pow * x;
+             }
+             Console.WriteLine("the {0} to the pow of  {1} and {2}",x,y, pow);
+             Console.ReadLine();
+            
+             --------------------------------------*/
+
+            /*int num;
+        L1: Console.WriteLine("enter the num");
+            num = Convert.ToInt32(Console.ReadLine());
+            if(num<=1)
             {
-                pow = pow * x;
+                goto test1;
             }
-            Console.WriteLine("the {0} to the pow of  {1} and {2}",x,y, pow);
-            Console.ReadLine();*/
+            else
+            {
+                goto L1;
+            }
+        test1: Console.WriteLine("its all done");
+            Console.ReadLine();
+            
+             -------------------------------------*/
+            /*int i=0;
+            while(i<=10)
+            {
+                i++;
+                if (i == 5)
+                    continue;
+                Console.WriteLine("{0}", i);
+            }
+            Console.ReadLine();
+
+            -----------------------------------------*/
 
 
         }
